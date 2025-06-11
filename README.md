@@ -9,7 +9,7 @@ not be able to afford building one on our own as these cars can get as costly as
 professor here at Texas A&M who agreed to give us a funding of $2.5k to build a cheaper version of this RC car.
 
 ## Components of the Car
-We used a 1/10th Traxxas ST Rally VXL Brushless car for our base kit. The body was taken off and a top plate was laser cut in order 
+A 1/10th Traxxas ST Rally VXL Brushless car for our base kit. The body was taken off and a top plate was laser cut in order 
 to house a NVIDIA Jetson Nano Orin, a 360° LiDAR, a VESC, a powerboard, and various other electrical peripherals. The top plate was
 made from a 1/8" acrylic plate, was designed in SolidWorks, and laser cut through the MEEN Rapid Prototyping Studio at Texas A&M. Most
 of the hardware was fastened using M3 screws and standoffs. A holder was printed for the NVIDIA Jetson Nano since it did not have any
@@ -20,11 +20,14 @@ mounting holes. Furthermore, a holder was 3d printed in order to mount the anten
 ## Tuning the Car
 Since the Car we bought was prebuilt, we had to manually mesh the gears as they would make a skipping noise while running. I used a thin
 strip of paper and placed it between the spur and pinion in order to properly mesh both the gears. Next, we had to tune the vesc which was
-very crucial in order to 
+very crucial in order to ensure smooth acceleration around the track. This was achieved by tuning PID values of the VESC through the VESC 
+Tool.
 
-(gears), 
+(gears), (pid tuned graph), (pid values)
 
-
+## Software Installation
+We are currently in the process of installing all the software packages into the NVIDIA Jetson Nano.
+<more updates to come :)>
 
 
 
